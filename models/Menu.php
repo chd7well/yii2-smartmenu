@@ -1,4 +1,12 @@
 <?php
+/*
+ * This file is part of the julatools project.
+ *
+ * (c) julatools project <http://github.com/julatools/> by CHD Electronic Engineering
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
 
 namespace julatools\smartmenu\models;
 
@@ -19,6 +27,7 @@ use Yii;
  * @property Menu $parent
  * @property Menu[] $menus
  * @property SysMenuType $type
+ * @author Christian Dumhart <christian.dumhart@chd.at>
  */
 class Menu extends \yii\db\ActiveRecord
 {
@@ -49,14 +58,14 @@ class Menu extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'ID' => Yii::t('configmanager', 'ID'),
-            'label' => Yii::t('configmanager', 'Label'),
-            'url' => Yii::t('configmanager', 'Url'),
-            'parent_ID' => Yii::t('configmanager', 'Parent  ID'),
-            'comment' => Yii::t('configmanager', 'Comment'),
-            'weight' => Yii::t('configmanager', 'Weight'),
-            'type_ID' => Yii::t('configmanager', 'Type  ID'),
-            'noguest' => Yii::t('configmanager', 'Noguest'),
+            'ID' => Yii::t('smartmenu', 'ID'),
+            'label' => Yii::t('smartmenu', 'Label'),
+            'url' => Yii::t('smartmenu', 'Url'),
+            'parent_ID' => Yii::t('smartmenu', 'Parent  ID'),
+            'comment' => Yii::t('smartmenu', 'Comment'),
+            'weight' => Yii::t('smartmenu', 'Weight'),
+            'type_ID' => Yii::t('smartmenu', 'Type  ID'),
+            'noguest' => Yii::t('smartmenu', 'Noguest'),
         ];
     }
 

@@ -1,7 +1,19 @@
 <?php
+/*
+ * This file is part of the julatools project.
+ *
+ * (c) julatools project <http://github.com/julatools/> by CHD Electronic Engineering
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
 
 use yii\db\Schema;
 use yii\db\Migration;
+
+/*
+ * @author Christian Dumhart <christian.dumhart@chd.at>
+ */
 
 class m150127_180520_init extends Migration
 {

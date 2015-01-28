@@ -1,9 +1,19 @@
 <?php
+/*
+ * This file is part of the julatools project.
+ *
+ * (c) julatools project <http://github.com/julatools/> by CHD Electronic Engineering
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
 namespace julatools\smartmenu;
 
 use julatools\smartmenu\models\Menu;
-
-
+/*
+* @author Christian Dumhart <christian.dumhart@chd.at>
+*/
 class Module extends \yii\base\Module
 {
 	

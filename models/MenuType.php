@@ -1,4 +1,12 @@
 <?php
+/*
+ * This file is part of the julatools project.
+ *
+ * (c) julatools project <http://github.com/julatools/> by CHD Electronic Engineering
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
 
 namespace julatools\smartmenu\models;
 
@@ -11,6 +19,7 @@ use Yii;
  * @property string $type
  *
  * @property SysMenu[] $sysMenus
+ * @author Christian Dumhart <christian.dumhart@chd.at>
  */
 class SysMenuType extends \yii\db\ActiveRecord
 {
@@ -39,8 +48,8 @@ class SysMenuType extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'ID' => Yii::t('configmanager', 'ID'),
-            'type' => Yii::t('configmanager', 'Type'),
+            'ID' => Yii::t('smartmenu', 'ID'),
+            'type' => Yii::t('smartmenu', 'Type'),
         ];
     }
 
