@@ -7,10 +7,14 @@ The current version is a development snapshot, do not use in production applicat
 
 > **NOTE:** Module is in initial development. Anything may change at any time.
 
+If you want to use more menues as the mainmenu (sys_menu_type.ID=1) then you must define a module parameter 'julatools/smartmenu/onlymainmenu' = 0 at bootstrap!
+
 ## Roadmap
-- Init Version
+- Improve weight handling
+- Caching 
 - Tests
 - Documentation
+
 
 
 ## Documentation

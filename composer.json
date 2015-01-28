@@ -1,0 +1,36 @@
+{
+    "name": "julatools/yii2-smartmenu",
+    "description": "Smart menu module for Yii2",
+    "keywords": ["yii2", "yii2-smartmenu", "smart menu module", "julatools"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/julatools/yii2-smartmenu/issues?state=open",
+        "forum": "https://gitter.im/julatools/yii2-smartmenu",
+        "source": "https://github.com/julatools/yii2-smartmenu"
+    },
+    "authors": [
+        {
+            "name": "Christian Dumhart",
+            "email": "christian.dumhart@chd.at",
+            "homepage": "http://www.chd.at"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "~2.0",
+        "julatools/yii2-user": "~0.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "julatools\\smartmenu\\": ""
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
+

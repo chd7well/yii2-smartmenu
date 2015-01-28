@@ -7,7 +7,7 @@ and effective for everyone involved.
 
 ## Reporting an issue
 
-1. Make sure you have the latest version of Yii2-configmanager and see if the issue still exists.
+1. Make sure you have the latest version of Yii2-smartmenu and see if the issue still exists.
 
 2. Search for similar issues. It's possible somebody has encountered this bug already.
 
