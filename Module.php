@@ -1,16 +1,16 @@
 <?php
 /*
- * This file is part of the julatools project.
+ * This file is part of the 7well project.
  *
- * (c) julatools project <http://github.com/julatools/> by CHD Electronic Engineering
+ * (c) 7well project <http://github.com/7well/> by CHD Electronic Engineering
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace julatools\smartmenu;
+namespace 7well\smartmenu;
 
-use julatools\smartmenu\models\Menu;
+use 7well\smartmenu\models\Menu;
 /*
 * @author Christian Dumhart <christian.dumhart@chd.at>
 */
@@ -26,9 +26,9 @@ class Module extends \yii\base\Module
 
 		// ...  other initialization code ...
 		
-		\Yii::$container->set("julatools\\smartmenu\\models\\Menu", 'julatools\smartmenu\models\Menu');
+		\Yii::$container->set("7well\\smartmenu\\models\\Menu", '7well\smartmenu\models\Menu');
 		
-		if(isset(\Yii::$app->params['julatools/smartmenu/onlymainmenu']) && \Yii::$app->params['julatools/smartmenu/onlymainmenu'] ==0 )
+		if(isset(\Yii::$app->params['7well/smartmenu/onlymainmenu']) && \Yii::$app->params['7well/smartmenu/onlymainmenu'] ==0 )
 		{//all menues are used
 			$menuitems = Menu::findAll()->all();
 		}

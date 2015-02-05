@@ -1,14 +1,14 @@
 <?php
 /*
- * This file is part of the julatools project.
+ * This file is part of the 7well project.
  *
- * (c) julatools project <http://github.com/julatools/> by CHD Electronic Engineering
+ * (c) 7well project <http://github.com/7well/> by CHD Electronic Engineering
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace julatools\smartmenu\models;
+namespace 7well\smartmenu\models;
 
 use Yii;
 
