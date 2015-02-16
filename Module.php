@@ -1,16 +1,16 @@
 <?php
 /*
- * This file is part of the 7well project.
+ * This file is part of the chd7well project.
  *
- * (c) 7well project <http://github.com/7well/> by CHD Electronic Engineering
+ * (c) chd7well project <http://github.com/chd7well/> by CHD Electronic Engineering
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace 7well\smartmenu;
+namespace chd7well\smartmenu;
 
-use 7well\smartmenu\models\Menu;
+use chd7well\smartmenu\models\Menu;
 /*
 * @author Christian Dumhart <christian.dumhart@chd.at>
 */
@@ -26,9 +26,9 @@ class Module extends \yii\base\Module
 
 		// ...  other initialization code ...
 		
-		\Yii::$container->set("7well\\smartmenu\\models\\Menu", '7well\smartmenu\models\Menu');
+		\Yii::$container->set("chd7well\\smartmenu\\models\\Menu", 'chd7well\smartmenu\models\Menu');
 		
-		if(isset(\Yii::$app->params['7well/smartmenu/onlymainmenu']) && \Yii::$app->params['7well/smartmenu/onlymainmenu'] ==0 )
+		if(isset(\Yii::$app->params['chd7well/smartmenu/onlymainmenu']) && \Yii::$app->params['chd7well/smartmenu/onlymainmenu'] ==0 )
 		{//all menues are used
 			$menuitems = Menu::findAll()->all();
 		}

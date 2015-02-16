@@ -1,13 +1,13 @@
 {
-    "name": "7well/yii2-smartmenu",
+    "name": "chd7well/yii2-smartmenu",
     "description": "Smart menu module for Yii2",
-    "keywords": ["yii2", "yii2-smartmenu", "smart menu module", "7well"],
+    "keywords": ["yii2", "yii2-smartmenu", "smart menu module", "chd7well"],
     "type": "yii2-extension",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/7well/yii2-smartmenu/issues?state=open",
-        "forum": "https://gitter.im/7well/yii2-smartmenu",
-        "source": "https://github.com/7well/yii2-smartmenu"
+        "issues": "https://github.com/chd7well/yii2-smartmenu/issues?state=open",
+        "forum": "https://gitter.im/chd7well/yii2-smartmenu",
+        "source": "https://github.com/chd7well/yii2-smartmenu"
     },
     "authors": [
         {
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "7well\\smartmenu\\": ""
+            "chd7well\\smartmenu\\": ""
         }
     },
     "extra": {

@@ -9,8 +9,8 @@ The smartmenu module is a simple menu module which can generate a menu from data
 Each menu item can order per its weight. (e.g. -100 first, ...) We recommand to use 100 weight steps, for the 1st level entries, 10 weight steps for the 2nd level entries. 
 
 Per default only the mainmenu will be activated. If you need more menu types, insert a new typ into sys_menu_type table and define follow parameters:
-'7well/smartmenu/onlymainmenu' = 0.
-If you use our 7well-configmanager activate this parameter as bootstrap!
+'chd7well/smartmenu/onlymainmenu' = 0.
+If you use our chd7well-configmanager activate this parameter as bootstrap!
 
 
 Example:

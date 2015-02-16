@@ -1,4 +1,4 @@
-# Yii2-smartmenu [![Latest Stable Version](https://poser.pugx.org/7well/yii2-smartmenu/v/stable.svg)](https://packagist.org/packages/7well/yii2-smartmenu) [![Total Downloads](https://poser.pugx.org/7well/yii2-smartmenu/downloads.svg)](https://packagist.org/packages/7well/yii2-smartmenu) [![License](https://poser.pugx.org/7well/yii2-smartmenu/license.svg)](https://packagist.org/packages/7well/yii2-smartmenu)
+# Yii2-smartmenu [![Latest Stable Version](https://poser.pugx.org/chd7well/yii2-smartmenu/v/stable.svg)](https://packagist.org/packages/chd7well/yii2-smartmenu) [![Total Downloads](https://poser.pugx.org/chd7well/yii2-smartmenu/downloads.svg)](https://packagist.org/packages/chd7well/yii2-smartmenu) [![License](https://poser.pugx.org/chd7well/yii2-smartmenu/license.svg)](https://packagist.org/packages/chd7well/yii2-smartmenu)
 
 A smart menu. Menu can be generated from a database and/or dynamicaly by insert Items to the component
 
@@ -7,7 +7,7 @@ The current version is a development snapshot, do not use in production applicat
 
 > **NOTE:** Module is in initial development. Anything may change at any time.
 
-If you want to use more menues as the mainmenu (sys_menu_type.ID=1) then you must define a module parameter '7well/smartmenu/onlymainmenu' = 0 at bootstrap!
+If you want to use more menues as the mainmenu (sys_menu_type.ID=1) then you must define a module parameter 'chd7well/smartmenu/onlymainmenu' = 0 at bootstrap!
 
 ## Roadmap
 - Improve weight handling
